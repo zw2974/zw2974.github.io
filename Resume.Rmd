@@ -1,0 +1,77 @@
+---
+title: "Academic and Professional Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Zihan Wu
+
+- Phone: (646) 732-9207
+- Email: [zw2974@cumc.columbia.edu](mailto:zw2974@cumc.columbia.edu)
+
+---
+
+## EDUCATION
+
+**Columbia University**  
+*Master of Science in Biostatistics*  
+New York, NY  
+Sept. 2023 – May. 2025  
+
+**New York University**  
+*Bachelor of Arts in Economics and Mathematics*  
+New York, NY  
+Sept. 2019 – May. 2023  
+Relevant Coursework: Analytical Statistics, Analysis, Econometrics, Financial Accounting, Mathematics of Finance, Math Modeling, Probability Theory, Linear Algebra, Political Economy, Microeconomics, Macroeconomics, Calculus
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+**Maternity and Child Health Care Hospital**  
+*Remote Data Analyst Intern*  
+Zhejiang, CN  
+Sept. 2022 – Present  
+- Generated clinical data and regression model to assist pharmaceutical research of cooperative medical corporation; used R and Python to analyze clinical data, delivered a 30+ pages report to assist future research of pneumonia  
+- Conducted surgery security analysis through analyzing patients’ case information with Excel; summarized average hospitalization expense of patients, medical negligence and clinical reception; reported to National Healthcare Security Administration  
+- Analyzed popularity of doctors using R and assisted in arranging working time of doctors according to the analysis
+
+**National Bureau of Statistics of China**  
+*Data Analyst Intern*  
+Zhejiang, CN  
+Jun. 2022 – Aug. 2022  
+- Utilized SQL and Python to analyze unemployment rate variance of past four quarters and visualize data in chart; assisted to write a 30+ pages analysis about impact of increasing unemployment rate  
+- Collected 50+ companies’ fraud evidence by reviewing 1000+ submitting operation materials; reported issues to relevant department to assist investigations  
+- Assisted to draft the report of general economic census by collecting and recapitulating relative CPI, trade data and GDP data
+
+**Huatai United Securities**  
+*Investment Banking Summer Analyst*  
+Shanghai, CN  
+Jun. 2021 – Aug. 2021  
+- Drafted 50+ pages Pitch Books about artificial heart, continuous glucose monitoring and neuro-intervention companies; analyzed financing rounds of 100+ companies and wrote a 53 pages report  
+- Researched CGM (Continuous Glucose Monitoring) industry and compared Chinese and foreign related companies; used Python and Excel to visualize analysis for 20+ competitive products  
+- Assisted to draft Financial Due Diligence report about the firm’s projection and business model
+
+---
+
+## EXTRACURRICULAR & LEADERSHIP EXPERIENCE
+
+**NYU Guitar Fingerstyle Club**  
+*Committee Member*  
+New York, NY  
+Nov. 2019 – Present  
+- Organized 4 campus-wide concerts and attracted 500+ audience members from 4 countries and 6 universities  
+- Used R and Excel to survey and analyze age, gender, and genre preferences of concert participants, helped management of club to improve concert format and song selection  
+- Participated in club presentations organized by university and recruited 20+ members  
+- Operated Instagram, YouTube and WeChat Official Accounts and attracted thousands of followers
+
+---
+
+## SKILLS
+
+**Languages**: Mandarin (Native), English (Professional)  
+**Software Skills**: MS Office, Python, R, SQL, MATLAB, Java, Photoshop, Lightroom, Premiere Pro
+
