@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Resume"
       href: Resume.html
+    - text: "Problem 2"
+      href: Problem2.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:zw2974@cumc.columbia.edu

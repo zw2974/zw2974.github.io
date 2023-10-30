@@ -1,0 +1,70 @@
+---
+title: "Problem 2"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+```{r echo=F}
+library(flexdashboard)
+library(tidyverse)
+library("p8105.datasets")
+library(plotly)
+data("instacart")
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Boxplot
+
+To create a bax plot showing the distribution of people's order hour for each aisle
+
+```{r}
+data("instacart")
+box = instacart|>
+  group_by(aisle,order_hour_of_day)|>
+  mutate(n_order=n())|>
+  filter(n_order>1000)
+
+plot_ly(box,x = ~aisle, y = ~order_hour_of_day,color=~aisle, type = "box",colors="viridis")
+```
+
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Barplot
+
+To make a bar plot to visualize the number of popular products in each aisles 
+```{r}
+day = instacart|>
+  group_by(aisle)|>
+  summarize(n_products=n())|>
+  filter(n_products>10000)|>
+  mutate(aisle=fct_reorder(aisle,n_products))
+
+plot_ly(day, x=~aisle,y=~n_products,color=~aisle,type="bar",colors="viridis")
+```
+
+### Lineplot
+
+```{r}
+summary = instacart |> 
+  group_by(order_hour_of_day) |> 
+  summarize(
+    average_days_since_prior = mean(days_since_prior_order, na.rm = TRUE))
+
+plot_ly(data = summary,
+        x = ~order_hour_of_day,
+        y = ~average_days_since_prior,
+        type = "scatter",
+        mode = "lines+markers") |> 
+  layout(title = "Average Days Since Prior Order by Order Hour of the Day",
+         xaxis = list(title = "Order Hour of Day"),
+         yaxis = list(title = "Average Days Since Prior Order"))
+```
